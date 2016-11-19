@@ -23,13 +23,6 @@
             <property name="hibernate.hbm2ddl.auto"
                       value="update"/>    <!-- Обновление схемы в БД каждый раз при внесении изменений структуры таблиц -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/SMIDDLE?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
-            <property name="javax.persistence.jdbc.user" value="developer"/>
-            <property name="javax.persistence.jdbc.password" value="Smidle098adm!"/>
-            <!--<property name="javax.persistence.jdbc.url"-->
-                      <!--value="jdbc:mysql://localhost:3306/LKKR_TEST?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>-->
-            <!--<property name="javax.persistence.jdbc.user" value="msense"/>-->
-            <!--<property name="javax.persistence.jdbc.password" value="ms2014"/>-->
         </properties>
     </persistence-unit>
 </persistence>
